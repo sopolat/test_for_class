@@ -30,8 +30,8 @@ void answer(int l[],int t,int len, int* ans)
 }
 int main()
 {
-    int l[] ={4, 3, 10, 2, 8,7,11,456,21,23};
-	int len=10;
+    int l[] ={4, 3, 10};
+	int len=3;
 	int t=12;
 	int ans[]={-1,-1};
 	answer(l,t,len,ans);
